@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
+import Singup from '../Components/Singup'
 
 function Login() {
   return (
-    <div>Login</div>
+    <div>
+      <Navbar/>
+      <Singup/>
+    </div>
   )
 }
 

@@ -7,7 +7,7 @@ const Help = () => {
     <h1 className="card-heading">How we do it</h1>
     <div className="container">
         <div className="cardd-1">
-            <img src="/" alt="image"/>
+            <img src="/img/coin.svg" alt="image"/>
             <h2 className="project-title">bf,s</h2>
             <div className="project-details">
                 <p>abejh,nfjsh,bvn</p>
