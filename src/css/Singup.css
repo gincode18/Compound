@@ -1,0 +1,49 @@
+.singup {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.singup .containt {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.containt{
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.containt > h1{
+  font-weight: 500;
+  margin-bottom:20px ;
+}
+.containt > form > h5{
+  margin-bottom: 5px;
+}
+.containt > form > input{
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: beige;
+  width: 98%;
+}
+.containt > p{
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login_signinbutton{
+  background: rgb(234, 176, 40);
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color:whitesmoke ;
+}
