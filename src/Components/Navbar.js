@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
         <Link to="/">
-            <h1>Compound</h1>
+        <img className="Logo" src="/img/Group 481759.svg"/>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
