@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
     return (
       <div className="landing">
         <div className="mask">
-        <img className="background-img" src="/img/Landin2.svg" alt="img"/>
+        <img className="background-img" src="/img/Landing4.svg" alt="img"/>
         </div>
         <div className="content">
         <h1>Invest wisely & <span>Compound money</span></h1> 

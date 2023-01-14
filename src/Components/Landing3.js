@@ -4,6 +4,10 @@ import React from "react";
 const Landing3 = () => {
   return (
     <div className="landing3">
+      <div className="mask">
+        <img className="background-img" src="/img/Love.svg" alt="img"/>
+        </div>
+      <div className="container">
       <div className="cardd-1">
         <img src="/img/coin.svg" alt="image" />
         <h2 className="project-title">LOW RISk,LOW RETURN</h2>
@@ -49,6 +53,7 @@ const Landing3 = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

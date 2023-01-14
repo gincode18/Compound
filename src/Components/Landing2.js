@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../css/Landing2.css'
 import Navbar2 from './Navbar2'
 function landing2() {
@@ -22,7 +23,9 @@ function landing2() {
         <div className='item2'>
         <section className='enter'><p>Enter amount</p><input></input></section>
         <section className='pay'><p>Pay Using</p><input></input></section>
+        <Link to="/payment">
         <button className='button button2'>Deposit Money</button>
+        </Link>
 
 
 

@@ -1,7 +1,7 @@
 import "../css/Navbar2.css"
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
-import { IoIosNotificationsOutline } from "react-icons/io";
+import {RiCommunityLine } from "react-icons/ri";
 import { BsWallet } from "react-icons/bs";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaHamburger } from "react-icons/fa";
@@ -27,8 +27,8 @@ const Navbar2 = () => {
           <Link to = "/team">Our Team</Link>
           </li>
           <li>
-              <a href="https://www.linkedin.com/in/aman-krishan-983980230/">
-                <IoIosNotificationsOutline/>
+              <a href="https://chat.whatsapp.com/HXVfQ2hbzPzFv3TKiS5ZjQ ">
+                <RiCommunityLine/>
               </a>
             </li>
             <li>
@@ -37,7 +37,7 @@ const Navbar2 = () => {
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/krishan_aman14">
+              <a href="/">
                 <FiShoppingCart/>
               </a>
             </li>
