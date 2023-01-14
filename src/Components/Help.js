@@ -8,12 +8,12 @@ const Help = () => {
     <div className="container">
         <div className="cardd-1">
             <img src="/img/coin.svg" alt="image"/>
-            <h2 className="project-title">bf,s</h2>
+            <h2 className="project-title">Expert's are here to manage your money</h2>
             <div className="project-details">
-                <p>abejh,nfjsh,bvn</p>
+                <p>Tension winson nhi lene ka apun log h na</p>
                 <div className="pro-btn">
                     <Link to="/"
-                    className="btnn">View</Link>
+                    className="btnn">Explore</Link>
                 </div>
             </div>   
         </div>
