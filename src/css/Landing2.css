@@ -1,0 +1,97 @@
+.landing{
+    color: white;
+}
+.landing-items{
+    display: flex;
+    margin-top: 5%;
+    
+    
+
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.opening{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+.opening p{
+    margin-left: 100px;
+}
+.used{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+.used p{
+    margin-left: 80px;
+}
+.avail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+.avail p{
+    margin-left: 100px;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.all button{
+    margin-left: 130px;
+}
+.all p{
+    margin-top: 18px;
+}
+.item2{
+    margin-left: 20%;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+.enter{
+    margin-bottom: 70px;
+}
+.pay{
+    margin-bottom: 40px;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 {
+    background-color: black; 
+    color: white; 
+    border: 2px solid goldenrod;
+  }
+  
+.button2:hover {
+    background-color: goldenrod;
+    color: white;
+  }
