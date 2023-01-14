@@ -6,8 +6,15 @@
     align-items: center;
 }
 .blog-item-container {
-    width: 270px;
-    flex-direction: column;
+    /* width: 270px;
+    flex-direction: column; */
+    max-width:1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 180px; 
+    padding-bottom: 5rem;
+    justify-content: space-evenly;
 
     margin: 2rem;
     padding: 1rem;
