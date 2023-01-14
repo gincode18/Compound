@@ -14,7 +14,7 @@ const Navbar2 = () => {
   return (
     <div className="navbar">
         <Link to="/">
-            <h1>LOGO</h1>
+        <img className="Logo" src="/img/Group 481759.svg"/>
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
