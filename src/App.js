@@ -7,6 +7,7 @@ import Team from "./routes/Team";
 import SinglePost from "./pages/SinglePost";
 import Error from "./pages/Error";
 import { Route,Routes } from "react-router-dom";
+import Home2 from "./routes/Home2";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Route path='/login'element ={<Login/>}/>
       <Route path="*" element={ <Error />}></Route>
       <Route path='/team'element ={<Team/>}/>
+      <Route path='/2nd'element ={<Home2/>}/>
     </Routes>
     </>
   );
