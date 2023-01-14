@@ -1,12 +1,11 @@
 .landing{
     color: white;
+    
 }
 .landing-items{
     display: flex;
-    margin-top: 5%;
+    padding-top: 200px;
     
-    
-
 }
 .item1{
     display: flex;

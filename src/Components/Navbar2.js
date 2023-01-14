@@ -32,7 +32,7 @@ const Navbar2 = () => {
               </a>
             </li>
             <li>
-              <a href="https://github.com/Amankrishan14">
+              <a href="/landing">
                 <BsWallet/>
               </a>
             </li>

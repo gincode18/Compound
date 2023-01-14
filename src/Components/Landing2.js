@@ -1,8 +1,12 @@
 import React from 'react'
 import '../css/Landing2.css'
+import Navbar2 from './Navbar2'
 function landing2() {
-  return (
+  return (<>
+        <Navbar2></Navbar2>
+
     <div className='landing'>
+      
       <div className='landing-items'>
         <div className='item1'>
          balance available
@@ -27,7 +31,7 @@ function landing2() {
 
       </div>
 
-    </div>
+    </div></>
   )
 }
 
