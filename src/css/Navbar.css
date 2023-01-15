@@ -27,11 +27,33 @@
     font-weight:600;
     cursor: pointer;
   }
+  .btn:hover{
+    background: black;
+  }
   .hamburger{
     display: none;
   }
   li{
 margin-top: 20px;
+}
+.circle{
+    
+        width: 5px;
+        height: 5px;
+     
+        background: transparent;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        margin-left: 40%;
+     
+        
+      
+}
+li:hover .circle{
+background: black;
+}
+li:hover a{
+    color: black;
 }
   @media screen and (max-width:1040px) {
     .nav-menu{

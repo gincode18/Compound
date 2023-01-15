@@ -14,12 +14,17 @@ const Navbar = () => {
         </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
+            <div className="circle"></div>
             <Link to = "/">Home</Link>
           </li>
           <li>
+          <div className="circle"></div>
+
             <Link to = "/blog">Blog</Link>
           </li>
           <li>
+          <div className="circle"></div>
+
             <Link to = "/team">Our Team</Link>
           </li>
             <Link to ="/login">
